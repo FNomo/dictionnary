@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_translation"
+        android:enabled="true"
+        android:icon="@drawable/ic_translation"
+        android:title="@string/menu_translation"/>
+
+    <item
+        android:id="@+id/page_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu_settings"/>
+
+</menu>

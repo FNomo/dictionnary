@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="day_info" type="fr.uparis.zobonomo.dictionaryapplication.settings.DayInformations" />
+    </data>
+    
+    <LinearLayout
+        android:background="@drawable/rounded_background"
+        android:backgroundTint="@color/gray"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/day"
+            android:gravity="center"
+            android:drawableStart="@drawable/ic_day"
+            android:textColor="@color/u_paris_soft"
+            app:drawableTint="@color/u_paris_soft"
+            android:text="@{day_info.day}"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/language"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:contentDescription="Language image"
+                android:layout_marginEnd="5dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_languages" />
+
+            <TextView
+                android:id="@+id/language_txt"
+                android:gravity="center"
+                android:text="@{day_info.language}"
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</layout>

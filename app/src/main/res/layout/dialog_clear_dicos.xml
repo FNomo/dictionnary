@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_background"
+    android:paddingVertical="@dimen/global_margin_vertical"
+    android:paddingHorizontal="@dimen/global_margin_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/u_paris"
+        android:textStyle="bold"
+        android:text="@string/pref_btn_cln_dicos"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/pref_dialog_cln_dicos_content"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"/>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginEnd="15dp"
+            style="@style/ButtonIconAppearance"
+            android:backgroundTint="@android:color/darker_gray"
+            android:id="@+id/btn_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/clean"
+            app:icon = "@drawable/ic_clear"
+            app:iconSize= "20sp"
+            />
+
+        <Button
+            style="@style/ButtonIconAppearance"
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/cancel"
+            app:icon = "@drawable/ic_close"
+            app:iconSize= "20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

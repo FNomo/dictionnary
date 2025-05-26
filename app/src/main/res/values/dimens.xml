@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="global_margin_vertical">20dp</dimen>
+    <dimen name="global_margin_horizontal">10dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- Dimension pour le FAB menu -->
+    <dimen name="fab_menu_margin">16dp</dimen>
+    <dimen name="mini_fab_menu_margin">24dp</dimen>
+    <dimen name="fab_search_intra_margin">8dp</dimen>
+
+    <!-- Dimension pour le dialog -->
+    <dimen name="search_dialog_margin">5dp</dimen>
+</resources>

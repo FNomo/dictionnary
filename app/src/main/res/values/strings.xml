@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Dictionary Application</string>
+    <string name="backup_name">My Dictionary</string>
+
+    <!-- Nom des menus -->
+    <string name="menu_translation">Translation</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="search_bar_hint">Enter a word</string>
+
+    <!-- Nom par défaut -->
+    <string name="unknown">Unknown</string>
+    <string name="chip_dico">No dictionary</string>
+    <string name="no_word">No word has been found during search</string>
+    <string name="no_dico">No dictionary has been found during search</string>
+    <string name="back">Back</string>
+    <string name="source">source:</string>
+    <string name="destination">destination:</string>
+    <string name="clean">clean</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose">Choose</string>
+
+    <!-- Message d' erreurs -->
+    <string name="error_no_word">Search bar is empty</string>
+    <string name="error_no_translation_target">No language specified</string>
+    <string name="error_no_url">No url specified</string>
+    <string name="error_field_empty">The following fields must be completed</string>
+    <string name="error_snack_word_added">The word has not been added</string>
+    <string name="error_snack_dico_added">The dictionary has not been added</string>
+
+    <!-- Dialogs search -->
+    <string name="dialog_search_title">Google search</string>
+    <string name="dialog_search_alternative">Unable to google search</string>
+    <string name="dialog_search_message">Please enter the translation language for the input word in the search bar</string>
+    <string name="dialog_search_button">SEARCH</string>
+    <string name="dialog_search_to">to</string>
+
+    <!-- Activité sauvegarde -->
+    <string name="tab_word">Word</string>
+    <string name="tab_dico">Dictionary</string>
+    <string name="ed_label_word">Expression</string>
+    <string name="ed_label_translation">Translation</string>
+    <string name="ed_label_dico">Dictionary</string>
+    <string name="ed_word_hint">Enter the  word or expressions</string>
+    <string name="ed_translated_word_hint">Enter the translated word or expressions</string>
+    <string name="ed_label_dico_hint">Enter the translated dictionary</string>
+    <string name="ed_label_src">Source</string>
+    <string name="ed_label_src_hint">Enter source language</string>
+    <string name="ed_label_dest">Destination</string>
+    <string name="ed_label_dest_hint">Enter destination language</string>
+    <string name="btn_save">SAVE</string>
+    <string name="snack_word_added">The word has been added</string>
+    <string name="snack_word_removed">The word has been removed</string>
+    <string name="snack_dico_added">The dictionary has been added</string>
+    <string name="snack_dico_removed">The dictionary has been removed</string>
+    <string name="snack_undo">UNDO</string>
+
+    <!-- Fragment recherche dictionnaire -->
+    <string name="search_bar_dico">Search Dictionary</string>
+
+    <!-- Fragment recherche mots -->
+    <string name="visualize">Visualize</string>
+    <string name="quiz">Quiz</string>
+    <string name="quiz_add">The word will be added to the training</string>
+
+    <!-- Titre de preferences -->
+    <string name="pref_title_global">General</string>
+    <string name="pref_title_quiz">Quiz</string>
+    <string name="pref_title_clean">Clean</string>
+
+    <!-- Nom de preferences -->
+    <string name="pref_hint_user_name">User Name</string>
+    <string name="pref_hint_quiz_words">Quiz Words</string>
+    <string name="pref_hint_quiz_frequency">Quiz Frequency</string>
+
+    <!-- Aides de preferences -->
+    <string name="pref_helper_user_name">The name of the user using the application</string>
+    <string name="pref_helper_quiz_words">The number of words offered at each learning session</string>
+    <string name="pref_helper_quiz_frequency">The number of quizzes per day</string>
+    <string name="pref_helper_days">The language you want to learn on the given day</string>
+
+    <!-- Jours de preferences -->
+    <string-array name="pref_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="pref_all_language">Any</string>
+
+    <!-- Boutons de preferences -->
+    <string name="pref_btn_cln_words">Remove All Words</string>
+    <string name="pref_btn_cln_dicos">Remove All Dictionaries</string>
+
+    <!-- Dialog de preferences -->
+    <string name="pref_dialog_cln_words_content">Are you really want to delete all words saved in this application? This operation will restart the application.</string>
+    <string name="pref_dialog_cln_dicos_content">Are you really want to delete all dictionaries saved in this application? This operation will restart the application.</string>
+    <string name="pref_dialog_languages_title">Choose Language</string>
+    <string name="pref_dialog_languages_content">Choose the language you want to learn for %1$s.</string>
+    <string name="pref_dialog_languages_error">You did not select anything</string>
+
+    <!-- Suppression accomplies -->
+    <string name="pref_cln_words">All words have been deleted.</string>
+    <string name="pref_cln_dicos">All dictionaries have been deleted.</string>
+
+</resources>
